@@ -1,0 +1,30 @@
+# 临时文件
+*.tmp
+*.log
+*.temp
+
+# 缓存
+node_modules/
+.cache/
+.npm/
+.yarn/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 本地配置（可能含敏感信息）
+.env
+.env.local
+*.local.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OpenClaw 本地数据（如果有人在本地测试）
+.qclaw/local/
+.qclaw/cache/
