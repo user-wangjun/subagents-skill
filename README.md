@@ -1,12 +1,47 @@
-# Subagent Creator / Subagent 创建器
+# Subagent Skills Collection / Subagent 技能合集
 
-> A skill for creating specialized AI subagents with customized personality, memory, and skills.
+> A collection of AI subagent skills for development, research, and agent creation.
 >
-> 一个用于创建专业化 AI Subagent 的技能，支持自定义性格、记忆和技能配置。
+> 一组用于开发、调研和创建 subagent 的 AI 技能集合。
 
 ---
 
-## 🌟 Features / 功能特性
+## 📦 Included Skills / 包含的技能
+
+| Skill | Description | Path |
+|-------|-------------|------|
+| **subagent-creator** | Guide for creating specialized AI subagents | `./SKILL.md` |
+| **subagent-driven-development** | Execute plans with subagent per task + two-stage review | `./skills/subagent-driven-development/` |
+| **research-subagent** | Deep research subagent with OODA loop + source tracking | `./skills/research-subagent/` |
+
+---
+
+## 🚀 Quick Start / 快速开始
+
+### Install Skills / 安装技能
+
+```bash
+# Install from ClawHub
+openclaw skills install subagent-creator
+openclaw skills install subagent-driven-dev
+openclaw skills install research-subagent
+```
+
+### Or Install from GitHub / 或从 GitHub 安装
+
+```bash
+openclaw skills install https://github.com/user-wangjun/subagents-skill
+```
+
+---
+
+## 📖 Skill Details / 技能详情
+
+### 1. Subagent Creator / Subagent 创建器
+
+A skill for creating specialized AI subagents with customized personality, memory, and skills.
+
+**Features:**
 
 - **8 Key Questions / 8 个关键问题** — 引导用户定义 subagent 的身份、性格、权限
 - **Universal Templates / 通用模板** — SOUL、MEMORY、AGENTS、USER、IDENTITY、PROMPT、TASKS、API
